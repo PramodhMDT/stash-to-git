@@ -1,3 +1,7 @@
-git@github.com:whiletrueisinfinity/MathTale.git
-git@github.com:Gazetteer-Panda/JavaTestDemo.git
-git@github.com:Gazetteer-Panda/SpiderHost.git
+# To download with SSH URL, SSH Authentication is a pre-requisite
+# For example:
+# git@github.com:whiletrueisinfinity/MathTale.git
+
+# Download with HTTPS, Basic Authentication is enough
+# For example:
+# https://github.com/Gazetteer-Panda/SpiderHost.git
