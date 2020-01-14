@@ -3,7 +3,7 @@
 # Git pull
 input_file_pull="../files/links.csv"
 cd repos
-while read line || [ -n "$line" ]			# "IFS= read -r line" will not work as it will leave the last line, referencing -n as the last line
+while read line || [ -n "$line" ]
 do
   echo "$line"
   git clone --bare $line
@@ -48,6 +48,16 @@ do
   git push --mirror $link
   cd ..
 done < "$input_file_push"
+
+#Remove the cloned repositories
+sCount=0
+while read line || [ -n "$line" ]
+do
+  file=$(echo "$line" | sed -e 's/\r//g')
+  file=${arr[${sCount}]}
+  sCount=$(($sCount+1))
+  rm -rf "$file"
+done < "$input_dir"
 
 # Check the files/links.csv file for the git pull repositories
 # Check the files/reponame.csv for the repository names
