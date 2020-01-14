@@ -1,3 +1,5 @@
+# links.csv if the list of repositories which you have to migrate
+
 # To download with SSH URL, SSH Authentication is a pre-requisite
 # For example:
 # git@github.com:whiletrueisinfinity/MathTale.git
@@ -5,3 +7,8 @@
 # Download with HTTPS, Basic Authentication is enough
 # For example:
 # https://github.com/Gazetteer-Panda/SpiderHost.git
+
+# Format (for SSH, same for HTTPS)
+# git@github.com:whiletrueisinfinity/MathTale.git
+# git@github.com:Gazetteer-Panda/SpiderHost.git
+# git@github.com:Gazetteer-Panda/JavaTestDemo.git
