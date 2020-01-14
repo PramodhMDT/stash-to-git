@@ -1,4 +1,4 @@
-#! /c/Users/Pramod/AppData/Local/Programs/Python/Python37-32/python
+#! /usr/bin/env python
 
 import csv
 import sys
