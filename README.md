@@ -16,7 +16,7 @@ Folder struture
 ### Notes
 * Make sure path to the files are correct
 * Cloning via HTTPS or SSH is available
-* links.csv if the list of repositories which you have to migrate
+* links.csv is the list of repositories which you have to migrate
 * Create token to authenticate for creating repositories (in curl.sh file)
 * Importing to User account or Organization is available
 
