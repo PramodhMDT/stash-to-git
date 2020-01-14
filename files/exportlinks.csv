@@ -1,3 +1,7 @@
-git@github.com:pramodhdev/MathTale.git
-git@github.com:pramodhdev/JavaTestDemo.git
-git@github.com:pramodhdev/SpiderHost.git
+# Provide the URL of Repository while running the script
+# Format
+  # Is SSH
+  # git@github.com:org_name   OR    # git@github.com:account_name
+  
+  # If HTTPS
+  # https://github.com/org_name   OR    # https://github.com/account_name
