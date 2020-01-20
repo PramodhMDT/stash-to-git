@@ -1,6 +1,7 @@
 #! /usr/bin/bash
 
 # Code to add a collaborator from the reponame.csv list of repositories with a permission pull, push or admin
+# More info on https://developer.github.com/v3/repos/collaborators/#add-user-as-a-collaborator
 
 input_file="files/reponame.csv"
 
